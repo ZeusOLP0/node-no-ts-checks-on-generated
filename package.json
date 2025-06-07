@@ -1,0 +1,12 @@
+{
+  "name": "node-no-ts-checks-on-generated",
+  "version": "1.0.0",
+  "description": "Add '// @ts-nocheck' to .ts files which are generated to skip type checking from typescript",
+  "license": "ISC",
+  "author": "ZeusOLP",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
