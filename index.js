@@ -1,7 +1,7 @@
 import { readFile, writeFile } from 'fs'
-import { getFilesRecursively } from './shared'
+import { getFilesRecursively } from './shared.js'
 
-module.exports = function (fileDirectory) {
+export const removeChecks = (fileDirectory) => {
     const files = getFilesRecursively(fileDirectory)
 
     files.forEach((file) => {
